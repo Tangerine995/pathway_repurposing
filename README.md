@@ -22,7 +22,12 @@ The screening with Pathsig is cell line specific. You can find the processed Pat
 If you cannot find the cell line you need, you may also use the script provided to produce your own pathsig.
 
 ## Drug screening with interested pathways
+The drug screening process takes your interesed pathway as input and screens L1000 profiles for possible drug candidates. The profiles will be ranked by their pathway scores in output.
+
 Note that any KEGG pathways you are interested in can be used as pathway feature for drug screening.
+
+## Analyze your results
+The screening results will contain a long list of drugs. You can further check their experiment information, target or structure to find the best candidate
 
 ## Citation
 
