@@ -17,11 +17,13 @@ Also, DAVID provids useful online tools for [gene ID conversion](https://david.n
 ### Summary
 The Library of Integrated Cellular Signatures ([LINCS](https://lincsproject.org/LINCS/)) is an NIH program which funds the generation of perturbational profiles across multiple cell and perturbation types, as well as read-outs, at a massive scale. We build a pipeline, in parallel with L1000 group, to process raw fluorescent intensity data into *z*-scores as perturbagen signatures, available at [L1000-bayesian](https://github.com/njpipeorgan/L1000-bayesian). Our Level 4 and Level 5 data are equivalent to Level 4 and Level 5 data provided by L1000. Pre-computed datasets covering a majority of LINCS L1000 Phase I and Phase II is available in [Zenodo](https://zenodo.org/record/5559183#.YWJS39rMKUk).
 
-### Pathsig form L1000-Bayesian
-The screening with Pathsig is cell line specific. 
+### Pathsig from L1000-Bayesian
+The screening with Pathsig is cell line specific. You can find the processed Pathsigs from L1000-Bayesian at Downloads. You can find the most similiar cell line in L1000 and use its pathsigs.
+If you cannot find the cell line you need, you may also use the script provided to produce your own pathsig.
 
 ## Drug screening with interested pathways
 Note that any KEGG pathways you are interested in can be used as pathway feature for drug screening.
 
 ## Citation
-123
+
+Qiu, Yue, et al. "A Bayesian approach to accurate and robust signature detection on LINCS L1000 data." Bioinformatics 36.9 (2020): 2787-2795.
