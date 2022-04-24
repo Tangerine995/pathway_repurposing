@@ -27,7 +27,7 @@ The drug screening process takes your interesed pathway as input and screens L10
 Note that any KEGG pathways you are interested in can be used as pathway feature for drug screening.
 
 ## Analyze your results
-The screening results will contain a long list of drugs. You can further check their experiment information, target or structure to find the best candidate
+The screening results will contain a long list of drugs. You can further check their experiment information, target or structure to find the best candidate. 
 
 ## Citation
 
