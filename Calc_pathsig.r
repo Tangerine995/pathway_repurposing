@@ -1,5 +1,5 @@
-npc_data=read.csv(".\Bayesian_npcGPdata_gene.csv",stringsAsFactors=F)
-l1k_genes= read.csv(".\l1k_genes.csv",header=F,stringsAsFactors=F)
+npc_data=read.csv(".\\Bayesian_npcGPdata_gene.csv",stringsAsFactors=F)
+l1k_genes= read.csv(".\\l1k_genes.csv",header=F,stringsAsFactors=F)
 
 npc_genes=intersect(npc_data$gene,l1k_genes$V1)
 npc_data=subset(npc_data,gene %in% npc_genes)
@@ -24,4 +24,4 @@ for (path in pathwayList){
   }
 }
 
-write.csv(NPC_PAS,".\Bayesian_npc_PAS.csv")
+write.csv(NPC_PAS,".\\Bayesian_npc_PAS.csv")
