@@ -9,9 +9,10 @@ In R(DE_Deseq_AD.r),install"tximeta" and "DESeq2". Import the quantified data fr
 Top differential expressed genes can then be used in next step for pathway analysis. 
 
 ## Pathway analysis
-With the differential expressed genes we can do pathway analysis with [DAVID](https://david.ncifcrf.gov/). 
+With the differential expressed genes we can do pathway analysis with Enrichr. Use enrich_pathway.r to find up and down regulated pathways in the sample.
 
-Also, DAVID provids useful online tools for [gene ID conversion](https://david.ncifcrf.gov/conversion.jsp).
+Or you can use online tools like [DAVID](https://david.ncifcrf.gov/) for pathway analysis.  DAVID also provids useful online tools for [gene ID conversion](https://david.ncifcrf.gov/conversion.jsp).
+
 
 ## L1000 data
 ### Summary
